@@ -1,0 +1,10 @@
+"""Melo resources module."""
+
+module(
+    name = "melo-resources",
+    version = "1.0.0",
+    compatibility_level = 1,
+)
+
+# Dev dependencies
+bazel_dep(name = "buildifier_prebuilt", version = "6.4.0", dev_dependency = True)

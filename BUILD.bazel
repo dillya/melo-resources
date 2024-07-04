@@ -1,0 +1,44 @@
+"""Melo resources root."""
+
+load("@buildifier_prebuilt//:rules.bzl", "buildifier", "buildifier_test")
+
+#
+# Main
+#
+
+test_suite(
+    name = "check",
+    tests = [
+        "buildifier.check",
+    ],
+)
+
+#
+# Formatting / Linting
+#
+
+_BUILDIFIER_EXCLUDE_PATTERNS = [
+    "./.git/*",
+]
+
+# Bazel / Starlark
+buildifier(
+    name = "buildifier.fix",
+    exclude_patterns = _BUILDIFIER_EXCLUDE_PATTERNS,
+    lint_mode = "fix",
+)
+
+buildifier_test(
+    name = "buildifier.check",
+    srcs = glob([
+        "**/*.bzl",
+        "**/*.bazel",
+    ]),
+    diff_command = "diff -u --color=always",
+    exclude_patterns = _BUILDIFIER_EXCLUDE_PATTERNS,
+    lint_mode = "warn",
+    # TODO(dillya): re-enable sandbox when this fix is merged:
+    #  -> https://github.com/keith/buildifier-prebuilt/pull/89
+    no_sandbox = True,
+    workspace = "WORKSPACE",
+)

@@ -1,0 +1,2 @@
+# Always display errors when test fails
+test --test_output=errors
