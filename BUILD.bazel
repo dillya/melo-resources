@@ -6,6 +6,11 @@ load("@buildifier_prebuilt//:rules.bzl", "buildifier", "buildifier_test")
 # Main
 #
 
+alias(
+    name = "logos",
+    actual = "//src:logos",
+)
+
 test_suite(
     name = "check",
     tests = [

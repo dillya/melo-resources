@@ -1,7 +1,7 @@
 # Melo - Resources repository
 
 <p align="center">
-  <img src="logo/melo_resources.png" alt="Melo resources" />
+  <img src="public/melo_resources.png" alt="Melo resources" />
 </p>
 
 All media resources are stored in this repositories such as logos or icons.
@@ -18,6 +18,22 @@ To install the font from command line:
 ```sh
 wget -O /tmp/font.zip https://dl.dafont.com/dl/?f=designosaur && unzip /tmp/font.zip -d ~/.local/share/fonts/
 ```
+
+To export **SVG** graphics, `inkscape` is internally used. To install on a Debian / Ubuntu
+distribution:
+
+```sh
+sudo apt install inkscape
+```
+
+### Generate logos
+
+The **Melo** logos can be generated from **Bazel** with the following command:
+
+```sh
+bazel build //:logos
+```
+It will export all logos in `bazel-bin/src/`.
 
 ### Import as Bazel module
 

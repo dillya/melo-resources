@@ -1,0 +1,122 @@
+"""Melo logo targets."""
+
+load("//:inkscape.bzl", "export_png", "export_svg", "replace_color", "replace_text")
+
+package(default_visibility = ["//visibility:public"])
+
+filegroup(
+    name = "logos",
+    srcs = [
+        ":icon_png",
+        ":icon_svg",
+        ":inline_dark_png",
+        ":inline_dark_svg",
+        ":inline_png",
+        ":inline_svg",
+        ":melo_png",
+        ":melo_resources_png",
+        ":melo_resources_svg",
+        ":melo_svg",
+    ],
+)
+
+# Private Dark version
+replace_color(
+    name = "_main_dark_svg",
+    src = "main.svg",
+    out = "_main_dark.svg",
+    new_color = "FFFFFF",
+    old_color = "444444",
+    visibility = ["//visibility:private"],
+)
+
+#
+# Main logo
+#
+
+export_svg(
+    name = "melo_svg",
+    src = "main.svg",
+    out = "melo.svg",
+    obj = "main",
+)
+
+export_png(
+    name = "melo_png",
+    src = ":melo_svg",
+    out = "melo.png",
+)
+
+#
+# Inline logo
+#
+
+export_svg(
+    name = "inline_svg",
+    src = "main.svg",
+    out = "inline.svg",
+    obj = "inline",
+)
+
+export_png(
+    name = "inline_png",
+    src = ":inline_svg",
+    out = "inline.png",
+)
+
+export_svg(
+    name = "inline_dark_svg",
+    src = ":_main_dark_svg",
+    out = "inline_dark.svg",
+    obj = "inline",
+)
+
+export_png(
+    name = "inline_dark_png",
+    src = ":inline_dark_svg",
+    out = "inline_dark.png",
+)
+
+#
+# Icon logo
+#
+
+export_svg(
+    name = "icon_svg",
+    src = "main.svg",
+    out = "icon.svg",
+    obj = "icon",
+)
+
+export_png(
+    name = "icon_png",
+    src = ":icon_svg",
+    out = "icon.png",
+)
+
+#
+# Logo for `Resources`
+#
+
+# Private intermediate SVG with text change (before text to path)
+replace_text(
+    name = "_melo_resources_svg",
+    src = "main.svg",
+    out = "_melo_resources.svg",
+    new_text = "Resources",
+    old_text = "Text",
+    visibility = ["//visibility:private"],
+)
+
+export_svg(
+    name = "melo_resources_svg",
+    src = ":_melo_resources_svg",
+    out = "melo_resources.svg",
+    obj = "full",
+)
+
+export_png(
+    name = "melo_resources_png",
+    src = ":melo_resources_svg",
+    out = "melo_resources.png",
+)
