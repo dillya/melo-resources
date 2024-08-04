@@ -218,10 +218,10 @@
      transform="matrix(0.80043926,0,0,0.80043926,-45.249697,-95.707481)"
      id="full"
      inkscape:label="Full"
-     style="display:inline;filter:url(#filter517)">
+     style="display:inline;filter:url(#filter517);fill:#444444;fill-opacity:1;stroke:#444444;stroke-opacity:1">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.8949px;font-family:Designosaur;-inkscape-font-specification:Designosaur;text-align:center;text-anchor:middle;fill:#444444;fill-opacity:1;stroke:#444444;stroke-width:0.271362;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.8949px;font-family:Designosaur;-inkscape-font-specification:Designosaur;text-align:center;text-anchor:middle;stroke-width:0.271362"
        x="175.51222"
        y="230.51291"
        id="header_text"
@@ -229,7 +229,7 @@
        inkscape:label="header"
        sodipodi:insensitive="true"><tspan
          id="tspan145"
-         style="text-align:center;text-anchor:middle;fill:#444444;fill-opacity:1;stroke:#444444;stroke-width:0.271363;stroke-opacity:1"
+         style="text-align:center;text-anchor:middle;stroke-width:0.271363"
          x="177.89645"
          y="230.51291"
          sodipodi:role="line">Text </tspan></text>
@@ -239,12 +239,12 @@
        height="2.7259803"
        width="108.29745"
        id="bar"
-       style="fill:#444444;fill-opacity:1;stroke:#444444;stroke-width:0.211298;stroke-opacity:1"
+       style="stroke-width:0.211298"
        inkscape:label="bar"
        sodipodi:insensitive="true" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:52.6812px;font-family:Designosaur;-inkscape-font-specification:Designosaur;fill:#444444;fill-opacity:1;stroke:#444444;stroke-width:0.274812;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:52.6812px;font-family:Designosaur;-inkscape-font-specification:Designosaur;stroke-width:0.274812"
        x="120.61652"
        y="209.85043"
        id="melo_text"
@@ -253,13 +253,13 @@
        sodipodi:insensitive="true"><tspan
          sodipodi:role="line"
          id="tspan151"
-         style="font-size:52.6812px;fill:#444444;fill-opacity:1;stroke:#444444;stroke-width:0.274813;stroke-opacity:1"
+         style="font-size:52.6812px;stroke-width:0.274813"
          x="120.61652"
          y="209.85043">Melo</tspan></text>
     <path
        id="logo"
        d="m 101.35227,197.39368 c 0,0 -9.552478,-4.92043 -16.571665,-3.02381 -7.133452,1.9275 -12.739159,5.79796 -12.473214,12.66221 0.316766,8.17595 9.055156,12.41569 15.686013,13.60714 13.548196,2.43436 25.702376,-8.50447 25.702376,-8.50447 l -14.605803,-54.7908 c 0,0 13.268143,7.51646 20.221723,6.61457 6.40675,-0.83096 17.76496,-7.74851 17.76496,-7.74851 0,0 -4.32589,-7.80677 -2.64584,-14.55212 0,0 -11.03585,6.42332 -17.19799,6.9926 -8.1318,0.75124 -14.54965,-6.45149 -22.678568,-5.66967 -4.413588,0.42449 -9.071428,6.42562 -9.071428,6.42562 z"
-       style="display:inline;fill:#dd7e19;fill-opacity:1;stroke:#dd7e19;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       style="display:inline;fill:#dd7e19;stroke:#dd7e19;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none"
        inkscape:label="logo"
        sodipodi:insensitive="true" />
   </g>
