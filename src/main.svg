@@ -5,6 +5,7 @@
    viewBox="0 0 297 210"
    height="210mm"
    width="297mm"
+   style="fill:#444444;fill-opacity:1;stroke:#444444;stroke-opacity:1"
    sodipodi:docname="main.svg"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -218,7 +219,7 @@
      transform="matrix(0.80043926,0,0,0.80043926,-45.249697,-95.707481)"
      id="full"
      inkscape:label="Full"
-     style="display:inline;filter:url(#filter517);fill:#444444;fill-opacity:1;stroke:#444444;stroke-opacity:1">
+     style="display:inline;filter:url(#filter517)">
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.8949px;font-family:Designosaur;-inkscape-font-specification:Designosaur;text-align:center;text-anchor:middle;stroke-width:0.271362"
