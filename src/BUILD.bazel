@@ -13,10 +13,14 @@ filegroup(
         ":inline_dark_svg",
         ":inline_png",
         ":inline_svg",
+        ":melo_dark_png",
+        ":melo_dark_svg",
         ":melo_png",
         ":melo_resources_png",
         ":melo_resources_svg",
         ":melo_svg",
+        ":text_png",
+        ":text_svg",
     ],
 )
 
@@ -25,7 +29,7 @@ replace_color(
     name = "_main_dark_svg",
     src = "main.svg",
     out = "_main_dark.svg",
-    new_color = "FFFFFF",
+    new_color = "CFD0D0",
     old_color = "444444",
     visibility = ["//visibility:private"],
 )
@@ -45,6 +49,19 @@ export_png(
     name = "melo_png",
     src = ":melo_svg",
     out = "melo.png",
+)
+
+export_svg(
+    name = "melo_dark_svg",
+    src = "_main_dark_svg",
+    out = "melo_dark.svg",
+    obj = "main",
+)
+
+export_png(
+    name = "melo_dark_png",
+    src = ":melo_dark_svg",
+    out = "melo_dark.png",
 )
 
 #
@@ -92,6 +109,23 @@ export_png(
     name = "icon_png",
     src = ":icon_svg",
     out = "icon.png",
+)
+
+#
+# Text only
+#
+
+export_svg(
+    name = "text_svg",
+    src = "main.svg",
+    out = "text.svg",
+    obj = "melo_text",
+)
+
+export_png(
+    name = "text_png",
+    src = ":text_svg",
+    out = "text.png",
 )
 
 #

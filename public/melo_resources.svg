@@ -5,62 +5,16 @@
    viewBox="0 0 139.62643 93.440224"
    height="93.440224mm"
    width="139.62643mm"
-   sodipodi:docname="_melo_resources.svg"
-   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   style="fill:#444444;fill-opacity:1;stroke:#444444;stroke-opacity:1"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:dc="http://purl.org/dc/elements/1.1/">
-  <sodipodi:namedview
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1"
-     objecttolerance="10"
-     gridtolerance="10"
-     guidetolerance="10"
-     inkscape:pageopacity="0"
-     inkscape:pageshadow="2"
-     inkscape:window-width="1916"
-     inkscape:window-height="986"
-     id="namedview3995"
-     showgrid="false"
-     inkscape:zoom="0.81890663"
-     inkscape:cx="335.81362"
-     inkscape:cy="443.88455"
-     inkscape:window-x="0"
-     inkscape:window-y="72"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="icon"
-     inkscape:showpageshadow="2"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#d1d1d1"
-     inkscape:document-units="mm" />
   <defs
      id="defs2">
-    <rect
-       x="464.25101"
-       y="619.48401"
-       width="432.82816"
-       height="232.15112"
-       id="rect944" />
-    <rect
-       x="165.65384"
-       y="593.80493"
-       width="395.82651"
-       height="126.7841"
-       id="rect808" />
-    <rect
-       x="492.93005"
-       y="553.74896"
-       width="390.2558"
-       height="66.474045"
-       id="rect13415" />
     <filter
        style="color-interpolation-filters:sRGB"
-       inkscape:label="Drop Shadow"
        id="filter517"
        x="-0.045949777"
        y="-0.082949025"
@@ -96,7 +50,6 @@
     </filter>
     <filter
        style="color-interpolation-filters:sRGB"
-       inkscape:label="Drop Shadow"
        id="filter430"
        x="-0.11319299"
        y="-0.094186388"
@@ -145,14 +98,12 @@
   <g
      transform="matrix(0.80043926,0,0,0.80043926,-51.944691,-102.65796)"
      id="full"
-     inkscape:label="Full"
      style="display:inline;filter:url(#filter517)">
     <g
        aria-label="Resources "
        transform="scale(0.99552641,1.0044937)"
        id="header_text"
-       style="font-size:15.8949px;font-family:Designosaur;-inkscape-font-specification:Designosaur;text-align:center;text-anchor:middle;fill:#444444;stroke:#444444;stroke-width:0.271362"
-       inkscape:label="header">
+       style="font-size:15.8949px;font-family:Designosaur;-inkscape-font-specification:Designosaur;text-align:center;text-anchor:middle;stroke-width:0.271362">
       <path
          d="m 148.61009,230.51291 c 0.25432,0 0.25432,-0.0795 0.12716,-0.25432 l -2.44782,-3.62404 c 1.38286,-0.65169 2.25708,-2.01865 2.25708,-3.57635 0,-2.22529 -1.68486,-3.98962 -4.08499,-3.98962 h -3.02003 c -0.22253,0 -0.3179,0.0954 -0.3179,0.3179 v 10.80853 c 0,0.22253 0.0954,0.3179 0.3179,0.3179 h 1.36696 c 0.22253,0 0.3179,-0.0954 0.3179,-0.3179 v -3.16308 h 1.2398 l 2.01865,3.21077 c 0.11127,0.19073 0.25432,0.27021 0.47685,0.27021 z m -5.48374,-4.89563 v -5.13405 h 1.01727 c 1.5577,0.0159 2.40013,0.85832 2.40013,2.57497 0,1.71665 -0.84243,2.55908 -2.40013,2.55908 z"
          style="stroke-width:0.271363"
@@ -192,15 +143,13 @@
     </g>
     <path
        id="bar"
-       style="fill:#444444;stroke:#444444;stroke-width:0.211298"
-       inkscape:label="bar"
+       style="stroke-width:0.211298"
        d="m 121.88632,213.68074 h 108.29745 v 2.72598 H 121.88632 Z" />
     <g
        aria-label="Melo"
        transform="scale(1.0024814,0.99752475)"
        id="melo_text"
-       style="font-size:52.6812px;font-family:Designosaur;-inkscape-font-specification:Designosaur;fill:#444444;stroke:#444444;stroke-width:0.274812"
-       inkscape:label="text">
+       style="font-size:52.6812px;font-family:Designosaur;-inkscape-font-specification:Designosaur;stroke-width:0.274812">
       <path
          d="m 160.91764,209.85043 c 0.73754,0 1.05362,-0.31608 1.05362,-1.05362 v -35.82322 c 0,-0.73753 -0.31608,-1.05362 -1.05362,-1.05362 h -4.26718 c -0.73753,0 -1.21166,0.26341 -1.58043,0.94826 l -12.53813,28.71126 -11.85327,-28.76394 c -0.36877,-0.63217 -0.8429,-0.89558 -1.58043,-0.89558 h -4.79399 c -0.73754,0 -1.05363,0.31609 -1.05363,1.05362 v 35.82322 c 0,0.73754 0.31609,1.05362 1.05363,1.05362 h 3.47696 c 0.73753,0 1.05362,-0.31608 1.05362,-1.05362 v -14.75074 l -0.52681,-10.58892 h 0.10536 l 10.16747,25.4977 c 0.36877,0.63218 0.8429,0.89558 1.58044,0.89558 h 3.42428 c 0.73753,0 1.21166,-0.2634 1.52775,-0.94826 l 10.6416,-25.44502 h 0.10537 l -0.52682,10.58892 v 14.75074 c 0,0.73754 0.31609,1.05362 1.05363,1.05362 z"
          style="stroke-width:0.274813"
@@ -221,8 +170,6 @@
     <path
        id="logo"
        d="m 101.35227,197.39368 c 0,0 -9.552478,-4.92043 -16.571665,-3.02381 -7.133452,1.9275 -12.739159,5.79796 -12.473214,12.66221 0.316766,8.17595 9.055156,12.41569 15.686013,13.60714 13.548196,2.43436 25.702376,-8.50447 25.702376,-8.50447 l -14.605803,-54.7908 c 0,0 13.268143,7.51646 20.221723,6.61457 6.40675,-0.83096 17.76496,-7.74851 17.76496,-7.74851 0,0 -4.32589,-7.80677 -2.64584,-14.55212 0,0 -11.03585,6.42332 -17.19799,6.9926 -8.1318,0.75124 -14.54965,-6.45149 -22.678568,-5.66967 -4.413588,0.42449 -9.071428,6.42562 -9.071428,6.42562 z"
-       style="display:inline;fill:#dd7e19;fill-opacity:1;stroke:#dd7e19;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:label="logo"
-       sodipodi:insensitive="true" />
+       style="display:inline;fill:#dd7e19;stroke:#dd7e19;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none" />
   </g>
 </svg>

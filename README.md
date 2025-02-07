@@ -16,8 +16,12 @@ The main font used for rendering text is based on `Designosaur` and can be downl
 To install the font from command line:
 
 ```sh
-wget -O /tmp/font.zip https://dl.dafont.com/dl/?f=designosaur && unzip /tmp/font.zip -d ~/.local/share/fonts/
+wget -O /tmp/font.zip https://dl.dafont.com/dl/?f=designosaur && sudo unzip /tmp/font.zip -d /usr/local/share/fonts
 ```
+
+> [!NOTE]
+> Since Bazel is using a sandbox with a different user, the font is not available if installed only
+> for local user...
 
 To export **SVG** graphics, `inkscape` is internally used. To install on a Debian / Ubuntu
 distribution:
