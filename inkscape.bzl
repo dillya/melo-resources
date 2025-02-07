@@ -5,7 +5,7 @@ def export_svg(name, src, obj, out, **kwargs):
         name = name,
         srcs = [src],
         outs = [out],
-        cmd = "inkscape -i " + obj + " -j -T $(location " + src + ") -o $@",
+        cmd = "inkscape --vacuum-defs -i " + obj + " -j -l -T $(location " + src + ") -o $@",
         **kwargs
     )
 
