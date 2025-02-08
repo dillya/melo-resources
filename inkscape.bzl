@@ -1,20 +1,28 @@
 """Inkscape rules for export."""
 
-def export_svg(name, src, obj, out, **kwargs):
+def export_svg(name, src, obj, out, margin = None, **kwargs):
+    extra_args = ""
+    if margin != None:
+        extra_args += " --export-margin=" + str(margin)
+
     native.genrule(
         name = name,
         srcs = [src],
         outs = [out],
-        cmd = "inkscape --vacuum-defs -i " + obj + " -j -l -T $(location " + src + ") -o $@",
+        cmd = "inkscape --vacuum-defs -i " + obj + " -j -l -T " + extra_args + " $(location " + src + ") -o $@",
         **kwargs
     )
 
-def export_png(name, src, out, **kwargs):
+def export_png(name, src, out, background = None, **kwargs):
+    extra_args = ""
+    if background != None:
+        extra_args += " --export-background=" + background
+
     native.genrule(
         name = name,
         srcs = [src],
         outs = [out],
-        cmd = "inkscape $(location " + src + ") -o $@",
+        cmd = "inkscape " + extra_args + " $(location " + src + ") -o $@",
         **kwargs
     )
 

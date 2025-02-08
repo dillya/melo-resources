@@ -7,18 +7,24 @@ package(default_visibility = ["//visibility:public"])
 filegroup(
     name = "logos",
     srcs = [
+        # Icons
         ":icon_png",
         ":icon_svg",
+        ":icon_maskable_png",
+        # Icon + inline text
         ":inline_dark_png",
         ":inline_dark_svg",
         ":inline_png",
         ":inline_svg",
+        # Main logo
         ":melo_dark_png",
         ":melo_dark_svg",
         ":melo_png",
+        ":melo_svg",
+        # Logo with sub-title
         ":melo_resources_png",
         ":melo_resources_svg",
-        ":melo_svg",
+        # Text only
         ":text_png",
         ":text_svg",
     ],
@@ -29,7 +35,7 @@ replace_color(
     name = "_main_dark_svg",
     src = "main.svg",
     out = "_main_dark.svg",
-    new_color = "CFD0D0",
+    new_color = "D4D4D4",
     old_color = "444444",
     visibility = ["//visibility:private"],
 )
@@ -109,6 +115,21 @@ export_png(
     name = "icon_png",
     src = ":icon_svg",
     out = "icon.png",
+)
+
+export_svg(
+    name = "icon_maskable_svg",
+    src = "main.svg",
+    out = "icon_maskable.svg",
+    margin = 20,
+    obj = "icon",
+)
+
+export_png(
+    name = "icon_maskable_png",
+    src = ":icon_maskable_svg",
+    out = "icon_maskable.png",
+    background = "#4a4a4a",
 )
 
 #
